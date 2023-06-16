@@ -7,13 +7,10 @@ const Nav = []
 export default defineConfig({
     title: 'Collab Web Docs',
     ignoreDeadLinks: true,
+    base: '/collabNote/',
     themeConfig: {
         sidebar: sidebar(),
         nav: Nav
-        // footer: {
-        //     message: '网站备案号 <a href="https://beian.miit.gov.cn/">蜀ICP备2022027412号-1</a>.',
-        //     copyright: 'Copyright © 2023-present <a href="https://github.com/tycsbs/">Sunny Bai</a>'
-        // }
     }
 })
 
