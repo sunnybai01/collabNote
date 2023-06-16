@@ -2,17 +2,17 @@
 layout: home
 
 hero:
-  name: 前端小站
-  text: 前端小册记录
-  tagline: 简单，直接，深刻，统一 (仅供个人学习)
-  image: https://ox4f5da2.github.io/seven-bit-docs/logo.svg
+  name: callab
+  text: Callab Web Note
+  tagline: 
+  image: https://investment.collabhome.io/assets/images/town-small.svg
   actions:
     - theme: brand
-      text: 快读开始
-      link: /pages/1前端面试之道/1JS%20基础知识点及常考面试题一
+      text: Get Start
+      link: /pages/collab-web/1.start-up.md
 
 features:
-  - title: 站在巨人的肩膀上仰望星空
-    details: 我们汲取前人的经验和智慧，不断进取，理解自己的处境和未来的方向。在这个变化和挑战的时代中立于不败之地。
+  - title: Invest in student housing to earn monthly Income
+    details:  Join Collab to start growing your wealth in real estate, get dividends every month, and make student housing better for everyone. 
 
 ---

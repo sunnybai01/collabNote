@@ -1,13 +1,5 @@
 import * as fs from 'fs'
 import * as path from 'path'
-// export function loadPage(path) {
-//     const globModule = import.meta.glob(path)
-//     Object.entries(globModule).forEach(([path, page]) => {
-//         page().then(({ default: file }) => {
-//             console.log(`path: ${path}, file: ${file}`)
-//         })
-//     })
-// }
 
 export function generateSidebarConfig(baseDir) {
     const sidebar = {}
@@ -32,10 +24,10 @@ export function generateSidebarConfig(baseDir) {
                 }
             }).filter(Boolean)
             // 生成头部导航栏
-            nav.push({
-                text: category,
-                link: sidebar[_category][0].link
-            })
+            // nav.push({
+            //     text: category,
+            //     link: sidebar[_category][0].link
+            // })
         }
     })
 
