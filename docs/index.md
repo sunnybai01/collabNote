@@ -9,7 +9,7 @@ hero:
   actions:
     - theme: brand
       text: Get Start
-      link: /pages/collab-web/1.start-up.md
+      link: /pages/collab-web/1.Getting Started.md
     - text: Official website
       link:  https://investment.collabhome.io/
 
