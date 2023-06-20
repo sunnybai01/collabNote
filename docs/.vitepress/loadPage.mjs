@@ -19,7 +19,7 @@ export function generateSidebarConfig(baseDir) {
                 const title = post.replace('.md', '')
                 const _link = (`/pages/${category}/${title}`)
                 return {
-                    text: title,
+                    text: title.split('.')[1],
                     link: _link
                 }
             }).filter(Boolean)
